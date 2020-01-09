@@ -1,0 +1,30 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1578482951761'); /* IE9 */
+  src: url('iconfont.eot?t=1578482951761#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQMAAsAAAAACFwAAAO/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEEINYATYCJAMQCwoABCAFhG0HUBtSB8iemjyt2KAKWbMA2AYg+C9E8DX223d3XzBNkkQjQ/VEImlUD+UTEoREqpSuUSxkrvx79z7EsCM7lyYqANNT78eVqqRLm3fvfnopkKowfe9KvE0yKIQPl3xMSmjc5KRnZ7tSCfyfy2nTEpgfKJe73Z60F0VRL8BobA1sjGmLrNAS0IaxKy/iNIFmQ0ygZY/zK4gpjEmBOE0RGsRSBqUmN9SFasnKAnEPZPXUQjgHcOd/P35gJWggqWQwZq7uH5iw/c74iiNW4w3hLgOI8Wxg68iYBgpxWOrYFgzD04ialeSQWaBu2hJjdRm/x+E4JveiqOO/PLIkiCoY2a1gBkUy7wkbj5V5qJOg0oDkDfQpoA6W6QHAJxi8Ab9CUpRWDofL1bBYfH7Z/Yf/w2eA7jsI+4rY8/d/n0HEoVlxzEB1EoYFIp0u6OEhAP7+gqpHxAPSobGaUcmgqH84OnlvDgNagzG4gFDNojRoaAghJjQGxAHT8wCNubxRCGK9vw+1ZP4BmszHsAhO68HCpLI4ODI+t5XId+wfEA8wuW3SoSEJhunlqkeyVkt+NBEXdej4Ri3BvdV7NuY7k9vHST8MPj5Wwh2h6CjmWY28PMMRkxleDM/ddj65TYn//4OiVHHhYsGb/djcokKRz5vUzYmPHBSX8dGWduboNb8the/49+ud80G33bGlj+f8eJMd+SlsPsD5FispYU4grGT0EDARVxsIo9qSsZVwwMLDmTtGMOrQ8Yy/B7teKL/VV9UfTzUhjGAk3FW/pkJrGlbAljplubIw4SLPjrcoDJOJSOYoyAb4n/FcBUBuEKk33xA1/3uUv3mXQRTX5Y/WcsEVT2tvVN/9v0A//KcRrYm/S7QsKiplGEuRaRvXnMVKYpKEZs34p3G6vY/h6gOxLdQ5ASGpGYSsbphZuNNQ0WIGqurmoNkUz/UteuQKikIHJjUACJ1WIWn3CFmnC2bhvkFFvx+o6gwiNFsL4Y4tRiOF4ZpLWo9MjC3BlDgluWXuJYLcCxJ9T+skKZ9/Q52u7UNLM4ts7IgkdcaYk1coVvLzOSbmKh89wHnkeQqzc5VDRq+RnN9rrZqbJ5a9qRGX5UPCkg6i6SEmFGsMpTAoEnfL9yRyn79AhD6PplNTUJG8QTq67N6RJTMWLZhHCtmq4Fr65xkQVuTr4Xhcog7FhzygjXhmWEHZ5cMcxNDTkNwj2LLKHJVKbKtozK/yn3ADNDMOKEFARERCZKhuZ3FNiuTx7/Zq9TVdk7yvk0yUZElh9X3b1QMAAA==') format('woff2'),
+  url('iconfont.woff?t=1578482951761') format('woff'),
+  url('iconfont.ttf?t=1578482951761') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1578482951761#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang:before {
+  content: "\e663";
+  font-size: 60px;
+}
+
+.icon-icon_huabanfuben:before {
+  content: "\e625";
+}
+
+.icon-yonghuming:before {
+  content: "\e60a";
+}
+
