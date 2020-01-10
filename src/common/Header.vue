@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div class="nav">
     <div class="nav-logo">
       <router-link to="/home">
@@ -17,6 +18,7 @@
       <RouterLink to="/login">登录 | 注册</RouterLink>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -26,9 +28,10 @@
 
 <style scoped>
   .nav{
+    padding: 0px;
     width: 100%;
     height: 50px;
-    display: flex;
+    display: inline-flex;
   }
  .nav-logo{
    width: 217px;
@@ -54,7 +57,7 @@
     margin-top: 10px;
   }
   .my-profile{
-    transform: translateX(450px);
+    transform: translateX(350px);
     padding-top: 15px;
     width: 100px;
     height: 38px;

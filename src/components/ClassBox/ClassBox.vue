@@ -154,7 +154,6 @@
 .cl-all{
   width: 1260px;
   height: 521px;
-  background-color: #d3dce6;
   margin: auto;
 }
 .left-cl-box{

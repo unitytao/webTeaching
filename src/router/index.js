@@ -10,6 +10,7 @@ import CourseIndex from '../Pages/CourseIndex/CourseIndex.vue'
 import ppt from '../components/ppt/ppt.vue'
 import pdf from '../components/pdf/pdf.vue'
 import vedio from '../components/vedio/vedio.vue'
+import Peofile from '../Pages/Profile/Profile.vue'
 
 Vue.use(VueRouter)
 
@@ -57,6 +58,10 @@ export default new VueRouter({
     {
       path: '/creatClass',
       component: CreatClass
+    },
+    {
+      path: '/peofile',
+      component: Peofile
     },
     {
       path: '/',

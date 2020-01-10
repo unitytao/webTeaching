@@ -25,7 +25,7 @@
     display: inline-block;
     float: right;
     margin-top: 45px;
-    margin-right: 150px;
+    margin-right: 120px;
     background-color: white;
     border-radius: 8px;
   }

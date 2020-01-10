@@ -2,11 +2,11 @@
   <div class="login-box showed">
     <div class="hide-login-btn">
     </div>
-    <form action="index.html" method="POST" class="login-form">
+    <form class="login-form">
       <h1>Welcome</h1>
       <input class="txtb" type="text" name="" placeholder="Username">
       <input class="txtb" type="password" name="" placeholder="Password">
-      <input class="login-btn" type="submit" name="" value="Login" disabled="">
+      <button class="login-btn" @click="aa()">Login</button>
     </form>
   </div>
 </template>
@@ -14,6 +14,9 @@
 <script>
   export default {
     methods: {
+      aa(){
+        this.$router.push({path :'/peofile'})
+      }
     }
   }
 

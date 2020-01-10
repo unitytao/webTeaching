@@ -2,14 +2,14 @@
 <div>
   <Header />
     <div class="main-content">
-      <div style="width: 210px; height: 378px;float: left;display: inline-block">
+      <div style="width: 210px; height: 378px;float: left;display: inline-block;margin-left: 120px;margin-top: 45px">
         <SideNav />
       </div>
 
       <div class="cal-block">
         <el-carousel height="350px">
           <el-carousel-item v-for="item in carouselList" :key="item.key">
-            <img :src= 'item.url'/>
+            <img :src= 'item.url' width="780px"/>
           </el-carousel-item>
         </el-carousel>
       </div>
@@ -50,6 +50,7 @@
     background-color: #f0f0f0;
   }
   .cal-block{
+    margin-left: -55px;
     margin-top: 25px;
     width: 780px;
     height: 400px;

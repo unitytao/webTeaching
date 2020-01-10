@@ -39,7 +39,23 @@
           </div>
         </div>
       </el-aside>
-      <el-main>Main</el-main>
+      <el-main>
+        <div class="create-class-main">
+          <p>主要文件</p>
+          <el-upload
+            class="upload-demo"
+            drag
+            action="https://jsonplaceholder.typicode.com/posts/"
+            multiple>
+            <i class="el-icon-upload"></i>
+            <div class="el-upload__text">将文件拖到此处，或<em>点击上传</em></div>
+            <div class="el-upload__tip" slot="tip">只能上传jpg/png文件，且不超过500kb</div>
+          </el-upload>
+          <p>说明</p>
+          <textarea rows="10" cols="50">
+          </textarea>
+        </div>
+      </el-main>
     </el-container>
   </div>
 </template>
@@ -136,6 +152,8 @@
 </script>
 
 <style scoped>
-
+.create-class-main{
+  text-align: center;
+}
 </style>
 
