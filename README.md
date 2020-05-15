@@ -2,9 +2,9 @@
 # webTeaching
 Vue学习平台
 =======
-# gshop
+# webteaching
 
-> A Vue.js project
+> 早期Vue学习项目，自己边学边慢慢写的，代码很乱且不规范，没有啥参考价值
 
 ## Build Setup
 
